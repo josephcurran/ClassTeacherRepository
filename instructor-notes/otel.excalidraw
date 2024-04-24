@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "DbvuxAdV296sVcFTAg8Xc",
+      "type": "text",
+      "x": 455,
+      "y": 199,
+      "width": 1298.6636962890625,
+      "height": 900,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 401986178,
+      "version": 789,
+      "versionNonce": 202677058,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1713967520205,
+      "link": null,
+      "locked": false,
+      "text": "Observability Stuff\n- Logs - historical stuff. \"This already happened, just letting you know\"\n- Metrics - data about what is going on right now - \n    - how much memory?\n    - is garbage collection happening?\n    - how many open HTTP connections? How many database connections?\n- Traces\n    - being able to see what calls what. \n        - this method calls this method, and the methods took this long.\n    - Distributed tracing is across processes. \n        - this api called this other API and it took this long, and \n            - it got this error?\n            - it worked great.\n\n- For collecting metrics and traces\n    - Prometheus*\n- Visualization / Alerts / Grafana* (Metrics)\n- Distributed Tracing Vizualization.\n    - Jaeger \n    - ZipKin",
+      "fontSize": 36,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 887,
+      "containerId": null,
+      "originalText": "Observability Stuff\n- Logs - historical stuff. \"This already happened, just letting you know\"\n- Metrics - data about what is going on right now - \n    - how much memory?\n    - is garbage collection happening?\n    - how many open HTTP connections? How many database connections?\n- Traces\n    - being able to see what calls what. \n        - this method calls this method, and the methods took this long.\n    - Distributed tracing is across processes. \n        - this api called this other API and it took this long, and \n            - it got this error?\n            - it worked great.\n\n- For collecting metrics and traces\n    - Prometheus*\n- Visualization / Alerts / Grafana* (Metrics)\n- Distributed Tracing Vizualization.\n    - Jaeger \n    - ZipKin",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
